@@ -5,15 +5,15 @@
 ## Build Setup
 
 ``` bash
-#安装Swiper插件
+# 安装Swiper插件
 npm install vue-awesome-swiper
 
-#main.js
+# main.js
 require('swiper/dist/css/swiper.css')
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 Vue.use(VueAwesomeSwiper)
 
-#App.vue 这个非常重要，没有的话Swiper参数无效
+# App.vue 这个非常重要，没有的话Swiper参数无效
 import Swiper from 'swiper'
 
 # install dependencies
